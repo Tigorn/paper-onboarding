@@ -12,9 +12,9 @@ class PageView: UIView {
   
   var itemsCount                  = 3
   var itemRadius: CGFloat         = 8.0
-  var selectedItemRadius: CGFloat = 22.0
+  var selectedItemRadius: CGFloat = 16.0
   var duration: Double            = 0.7
-  var space: CGFloat              = 20// space between items
+  var space: CGFloat              = 10// space between items
   let itemColor: (Int) -> (UIColor)
 
   // configure items set image or chage color for border view
